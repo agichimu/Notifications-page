@@ -30,10 +30,12 @@ body {
   place-items: center;
  
 }
-.container{
+.header {
+  width: 100%;
+  height: 100%;
   display: inline-flex;
   margin: auto;
-  background-color: brown;
+  background-color: whitesmoke;
  ;
 }
 
@@ -74,9 +76,17 @@ body {
   padding: 2px 4px;
  
 }
-@media (max-width: 360px) {
+@media (max-width: 480px) {
+  body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    display: grid;
+    place-items: center;
+   
+  }
   .container{
     width: 100%;
+    height: 100%;
     display: inline-flex;
     margin: auto;
     background-color: whitesmoke;
@@ -111,6 +121,7 @@ body {
   
   .navbar p {
     font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     margin-left: 21px;
   }
@@ -125,5 +136,55 @@ body {
     font-family: Courier (monospace);
     padding: 2px 7px;
    
+  }
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .Angela {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .Angela img {
+    margin-right: 10px;
+    order: 1;
+    height: 42px;
+    margin: 0 auto;
+  }
+
+  .main-content img {
+    margin-right: 10px;
+    order: 1;
+    height: 42px;
+    margin: 0 auto;
+  }
+   .main-content p {
+    font-stretch: normal;
+    position: relative;
+    order: 2;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 32px;
+  }
+  
+  .main-content p .name{
+    font-weight: bold;
+    font-family: Papyrus;
+    color: hsl(222, 16%, 12%);
+  }
+  .main-content p .event {
+    font-family: Consolas;
+    color: hsl(224, 5%, 43%);
   }
 }
