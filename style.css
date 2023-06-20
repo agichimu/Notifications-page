@@ -76,7 +76,7 @@ body {
   padding: 2px 4px;
  
 }
-@media (max-width: 480px) {
+@media (max-width:  375px) {
   body {
     background-color: hsl(0, 0%, 100%);
     margin: 0;
@@ -123,7 +123,7 @@ body {
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
-    margin-left: 99px;
+    margin-left: 55px;
   }
   
   .navbar .badge {
@@ -149,19 +149,6 @@ body {
     justify-content: flex-start;
     margin-top: 10px;
   }
-  .Angela {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 10px;
-  }
-  .Angela img {
-    margin-right: 10px;
-    order: 1;
-    height: 42px;
-    margin: 0 auto;
-  }
-
   .main-content img {
     margin-right: 10px;
     order: 1;
@@ -187,4 +174,130 @@ body {
     font-family: Consolas;
     color: hsl(224, 5%, 43%);
   }
+  .Angela {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .Angela img {
+    margin-right: 10px;
+    order: 1;
+    height: 42px;
+    margin: 0 auto;
+  }
+
+}
+
+@media (min-width:  375px) {
+  body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    display: grid;
+    place-items: center;
+   
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    margin: auto;
+    background-color: whitesmoke;
+   ;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin-right: 9px;
+  }
+  
+  .navbar h2 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  .navbar p {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    margin-left: 55px;
+  }
+  
+  .navbar .badge {
+    margin-left: 5px;
+    background-color: hsl(219, 85%, 26%);;
+    color: hsl(0, 0%, 100%);;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Courier (monospace);
+    padding: 2px 7px;
+   
+  }
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .main-content img {
+    margin-right: 10px;
+    order: 1;
+    height: 42px;
+    margin: 0 auto;
+  }
+   .main-content p {
+    font-stretch: normal;
+    position: relative;
+    order: 2;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 32px;
+  }
+  
+  .main-content p .name{
+    font-weight: bold;
+    font-family: Papyrus;
+    color: hsl(222, 16%, 12%);
+  }
+  .main-content p .event {
+    font-family: Consolas;
+    color: hsl(224, 5%, 43%);
+  }
+  .Angela {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .Angela img {
+    margin-right: 10px;
+    order: 1;
+    height: 42px;
+    margin: 0 auto;
+  }
+
 }
