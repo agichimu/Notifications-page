@@ -94,10 +94,10 @@ body {
   }
   
   .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
     padding: 10px;
   }
   
@@ -115,15 +115,17 @@ body {
   
   .navbar h2 {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500 , 800;
     font-size: 20px;
   }
   
   .navbar p {
     font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500 , 800;
     margin: 0;
-    margin-left: 55px;
+    margin-left: 75px;
   }
   
   .navbar .badge {
@@ -133,62 +135,237 @@ body {
     border-radius: 5px;
     font-size: 18px;
     margin-bottom: 10px;
-    font-family: Courier (monospace);
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500 , 800;
     padding: 2px 7px;
    
   }
   .main-content {
     display: flex;
+    word-wrap: break-word;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
-  .main-content div {
-    display: flex;
+  .Mark {
+    width: 100%;
+    background-color: hsl(206, 64%, 98%); 
+    display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 10px;
-  }
-  .main-content img {
-    margin-right: 10px;
-    order: 1;
-    height: 42px;
-    margin: 0 auto;
-  }
-   .main-content p {
-    font-stretch: normal;
-    position: relative;
-    order: 2;
-    text-align: right;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 32px;
-  }
-  
-  .main-content p .name{
-    font-weight: bold;
-    font-family: Papyrus;
-    color: hsl(222, 16%, 12%);
-  }
-  .main-content p .event {
-    font-family: Consolas;
-    color: hsl(224, 5%, 43%);
-  }
-  .Angela {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 10px;
-  }
-  .Angela img {
-    margin-right: 10px;
-    order: 1;
-    height: 42px;
-    margin: 0 auto;
-  }
-
+   }
+   .Mark img {
+    padding-top: 5px;
+    display: block;
+    height: 55px;
+    margin: 12px;
 }
+  .Mark p {
+      padding: 9px; 
+      text-align: left ;
+      line-height : normal;
+      word-wrap: break-word;            
+  }
+    .Mark .name{
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 500 , 800;
+      color: hsl(222, 16%, 12%);
+    }
+    .Mark .event {
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 500 , 800;
+      color: hsl(224, 5%, 43%);
+    }
+   
+    .Angela {
+      width: 100%;
+    background-color: hsl(206, 64%, 98%);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px
+     }
+      .Angela img {
+        padding-top: 5px;
+        display: block;
+        height: 55px;
+        margin: 12px;
+    }
+      .Angela p {
+          padding: 20px; 
+          text-align: left ;
+          line-height : normal;
+          word-wrap: break-word;            
+      }
+      .Angela .name{
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500 , 800;
+        color: hsl(222, 16%, 12%);
+      }
+      .Angela .event {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500 , 800;
+        color: hsl(224, 5%, 43%);
+      }
 
+      .Jacob {
+        width: 100%;
+      background-color: hsl(206, 64%, 98%);
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 10px
+       }
+       .Jacob img {
+        padding-top: 5px;
+        display: block;
+        height: 55px;
+        margin: 12px;
+    }
+      .Jacob p {
+          padding: 15px; 
+          text-align: left ;
+          line-height : normal;
+          word-wrap: break-word;            
+      }
+        .Jacob .name{
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 500 , 800;
+          color: hsl(222, 16%, 12%);
+        }
+        .Jacob .event {
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 500 , 800;
+          color: hsl(224, 5%, 43%);
+        }
+          
+        .Rizk {
+          width: 100%;
+        background-color: hsl(206, 64%, 98%);
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 10px
+         }
+         .Rizk img {
+          padding-top: 5px;
+          display: block;
+          height: 55px;
+          margin: 12px;
+      }
+        .Rizk p {
+            padding: 20px; 
+            text-align: left ;
+            line-height : normal;
+            word-wrap: break-word;            
+        }
+          .Rizk .name{
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500 , 800;
+            color: hsl(222, 16%, 12%);
+          }
+          .Rizk .event {
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500 , 800;
+            color: hsl(224, 5%, 43%);
+          }
+
+        .Kimberly {
+          width: 100%;
+        background-color: hsl(206, 64%, 98%);
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 10px
+         }
+         .Kimberly img {
+          padding-top: 5px;
+          display: block;
+          height: 55px;
+          margin: 12px;
+      }
+        .Kimberly p {
+            padding: 20px; 
+            text-align: left ;
+            line-height : normal;
+            word-wrap: break-word;            
+        }
+          .Kimberly .name{
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500 , 800;
+            color: hsl(222, 16%, 12%);
+          }
+          .Kimberly .event {
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500 , 800;
+            color: hsl(224, 5%, 43%);
+          }
+
+          .Nathan {
+            width: 100%;
+          background-color: hsl(206, 64%, 98%);
+          display: inline-flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          margin-top: 10px
+           }
+           .Nathan img {
+            padding-top: 5px;
+            display: block;
+            height: 55px;
+            margin: 12px;
+        }
+          .Nathan p {
+              padding: 9px; 
+              text-align: left ;
+              line-height : normal;
+              word-wrap: break-word;            
+          }
+            .Nathan .name{
+              font-family: 'Plus Jakarta Sans';
+              font-weight: 500 , 800;
+              color: hsl(222, 16%, 12%);
+            }
+            .Nathan .event {
+              font-family: 'Plus Jakarta Sans';
+              font-weight: 500 , 800;
+              color: hsl(224, 5%, 43%);
+            }
+
+            .Anna {
+              width: 100%;
+            background-color: hsl(206, 64%, 98%);
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-top: 10px
+             }
+            .Anna img {
+                padding-top: 5px;
+                display: block;
+                height: 55px;
+                margin: 12px;
+
+              }
+              .Anna p {
+                padding: 20px; 
+                text-align: left ;
+                line-height : normal;
+                word-wrap: break-word;
+             }
+              .Anna .name{
+                font-family: 'Plus Jakarta Sans';
+                font-weight: 500 , 800;
+                color: hsl(222, 16%, 12%);
+
+              }
+              .Anna .event {
+                font-family: 'Plus Jakarta Sans';
+                font-weight: 500 , 800;
+                color: hsl(224, 5%, 43%);
+              }
+}
 @media (min-width:  375px) {
   body {
     background-color: hsl(0, 0%, 100%);
@@ -207,6 +384,7 @@ body {
   }
   
   .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -228,15 +406,19 @@ body {
   
   .navbar h2 {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500 , 800;
     font-size: 20px;
   }
   
   .navbar p {
     font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500 , 800;
     margin: 0;
-    margin-left: 55px;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    margin-left: 100px;
   }
   
   .navbar .badge {
@@ -246,58 +428,234 @@ body {
     border-radius: 5px;
     font-size: 18px;
     margin-bottom: 10px;
-    font-family: Courier (monospace);
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500 , 800;
     padding: 2px 7px;
    
   }
   .main-content {
     display: flex;
+    word-wrap: break-word;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
-  .main-content div {
-    display: flex;
+  .Mark {
+    width: 100%;
+    background-color: hsl(206, 64%, 98%); 
+    display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 10px;
+   }
+   .Mark img {
+    padding-top: 5px;
+    display: block;
+    height: 55px;
+    margin: 12px;
+}
+  .Mark p {
+      padding: 9px; 
+      text-align: left ;
+      line-height : normal;
+      word-wrap: break-word;            
   }
-  .main-content img {
-    margin-right: 10px;
-    order: 1;
-    height: 42px;
-    margin: 0 auto;
-  }
-   .main-content p {
-    font-stretch: normal;
-    position: relative;
-    order: 2;
-    text-align: right;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 32px;
-  }
-  
-  .main-content p .name{
-    font-weight: bold;
-    font-family: Papyrus;
-    color: hsl(222, 16%, 12%);
-  }
-  .main-content p .event {
-    font-family: Consolas;
-    color: hsl(224, 5%, 43%);
-  }
-  .Angela {
-    display: flex;
+    .Mark .name{
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 500 , 800;
+      color: hsl(222, 16%, 12%);
+    }
+    .Mark .event {
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 500 , 800;
+      color: hsl(224, 5%, 43%);
+    }
+   
+    .Angela {
+      width: 100%;
+    background-color: hsl(206, 64%, 98%);
+    display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 10px;
-  }
-  .Angela img {
-    margin-right: 10px;
-    order: 1;
-    height: 42px;
-    margin: 0 auto;
-  }
+    margin-top: 10px
+     }
+      .Angela img {
+        padding-top: 5px;
+        display: block;
+        height: 55px;
+        margin: 12px;
+    }
+      .Angela p {
+          padding: 20px; 
+          text-align: left ;
+          line-height : normal;
+          word-wrap: break-word;            
+      }
+      .Angela .name{
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500 , 800;
+        color: hsl(222, 16%, 12%);
+      }
+      .Angela .event {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500 , 800;
+        color: hsl(224, 5%, 43%);
+      }
 
+      .Jacob {
+        width: 100%;
+      background-color: hsl(206, 64%, 98%);
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 10px
+       }
+       .Jacob img {
+        padding-top: 5px;
+        display: block;
+        height: 55px;
+        margin: 12px;
+    }
+      .Jacob p {
+          padding: 15px; 
+          text-align: left ;
+          line-height : normal;
+          word-wrap: break-word;            
+      }
+        .Jacob .name{
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 500 , 800;
+          color: hsl(222, 16%, 12%);
+        }
+        .Jacob .event {
+          font-family: 'Plus Jakarta Sans';
+          font-weight: 500 , 800;
+          color: hsl(224, 5%, 43%);
+        }
+          
+        .Rizk {
+          width: 100%;
+        background-color: hsl(206, 64%, 98%);
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 10px
+         }
+         .Rizk img {
+          padding-top: 5px;
+          display: block;
+          height: 55px;
+          margin: 12px;
+      }
+        .Rizk p {
+            padding: 20px; 
+            text-align: left ;
+            line-height : normal;
+            word-wrap: break-word;            
+        }
+          .Rizk .name{
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500 , 800;
+            color: hsl(222, 16%, 12%);
+          }
+          .Rizk .event {
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500 , 800;
+            color: hsl(224, 5%, 43%);
+          }
+
+        .Kimberly {
+          width: 100%;
+        background-color: hsl(206, 64%, 98%);
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 10px
+         }
+         .Kimberly img {
+          padding-top: 5px;
+          display: block;
+          height: 55px;
+          margin: 12px;
+      }
+        .Kimberly p {
+            padding: 20px; 
+            text-align: left ;
+            line-height : normal;
+            word-wrap: break-word;            
+        }
+          .Kimberly .name{
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500 , 800;
+            color: hsl(222, 16%, 12%);
+          }
+          .Kimberly .event {
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 500 , 800;
+            color: hsl(224, 5%, 43%);
+          }
+
+          .Nathan {
+            width: 100%;
+          background-color: hsl(206, 64%, 98%);
+          display: inline-flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          margin-top: 10px
+           }
+           .Nathan img {
+            padding-top: 5px;
+            display: block;
+            height: 55px;
+            margin: 12px;
+        }
+          .Nathan p {
+              padding: 9px; 
+              text-align: left ;
+              line-height : normal;
+              word-wrap: break-word;            
+          }
+            .Nathan .name{
+              font-family: 'Plus Jakarta Sans';
+              font-weight: 500 , 800;
+              color: hsl(222, 16%, 12%);
+            }
+            .Nathan .event {
+              font-family: 'Plus Jakarta Sans';
+              font-weight: 500 , 800;
+              color: hsl(224, 5%, 43%);
+            }
+
+            .Anna {
+              width: 100%;
+            background-color: hsl(206, 64%, 98%);
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-top: 10px
+             }
+            .Anna img {
+                padding-top: 5px;
+                display: block;
+                height: 55px;
+                margin: 12px;
+
+              }
+              .Anna p {
+                padding: 20px; 
+                text-align: left ;
+                line-height : normal;
+                word-wrap: break-word;
+             }
+              .Anna .name{
+                font-family: 'Plus Jakarta Sans';
+                font-weight: 500 , 800;
+                color: hsl(222, 16%, 12%);
+
+              }
+              .Anna .event {
+                font-family: 'Plus Jakarta Sans';
+                font-weight: 500 , 800;
+                color: hsl(224, 5%, 43%);
+              }
 }
