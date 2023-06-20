@@ -366,7 +366,7 @@ body {
                 color: hsl(224, 5%, 43%);
               }
 }
-@media (min-width:  375px) {
+ @media (max-width:  480px) {
   body {
     background-color: hsl(0, 0%, 100%);
     margin: 0;
@@ -388,7 +388,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
     padding: 10px;
   }
   
