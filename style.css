@@ -462,7 +462,7 @@
   .Rizk {
   width : 100%;
   background-color : hsl(206 64% 98%);
-  display : inline-flex;
+  display : block;
   flex-direction : row;
   justify-content : flex-start;
   margin-top : 10px;
@@ -486,6 +486,13 @@
   .Rizk .event {
   font-family : 'Plus Jakarta Sans';
   color : hsl(224 5% 43%);
+  }
+  .grid{
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.218);
+    padding: 20px;
+    font-size: 13px;
+    text-align: center;
   }
   .Kimberly {
   width : 100%;
