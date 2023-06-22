@@ -11,10 +11,9 @@
   --dark-grayish-blue : hsl(219 12% 42%);
   --verydark-blue : hsl(224 21% 14%);
   }
+  
   body {
   font-size : 16px;
-  }
-  body {
   margin : 0;
   display : flex;
   place-items : center;
@@ -79,7 +78,9 @@
   flex-wrap: wrap;
   }
   .navbar p {
-    margin-left: 2rem;
+  color:  hsl(219, 12%, 42%);
+  font-size: 18px;
+  margin-left: 2rem;
   flex-wrap: wrap;  
   width: 100%;
   }
@@ -91,7 +92,7 @@
   font-size : 18px;
   margin-bottom : 10px;
   font-family : 'Plus Jakarta Sans';
-  padding : 2px 7px;
+  padding : 3px 9px;
   }
   .main-content {
   display : flex;
@@ -125,9 +126,10 @@
   font-family : 'Plus Jakarta Sans';
   color : hsl(222 16% 12%);
   }
-  .Mark .my first tournament {
+  .Mark .event{
   font-family : 'Plus Jakarta Sans';
-  color : hsl(224, 80%, 40%);
+  color : hsla(210, 2%, 21%, 0.912);
+  font-weight: l;
   }
   .num {
     color: hsl(219, 12%, 50%);
@@ -226,6 +228,7 @@
   color : hsl(224 5% 43%);
   }
    .grid {
+    color: hsl(219 12% 42%);
     width: 100%;
     margin-left: 26%;
     padding-left: 23px;
